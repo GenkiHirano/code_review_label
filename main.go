@@ -1,9 +1,16 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+	score := 75
+
+	if score >= 80 {
+		fmt.Println("素晴らしい！")
+		if score >= 60 {
+			fmt.Println("まあまあ")
+		}
+	} else {
+		fmt.Println("次回は頑張りましょうううううう。")
+	}
 }
